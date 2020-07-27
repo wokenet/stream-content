@@ -1,0 +1,63 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: normal;
+  src: url(./NotoSans-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Noto Sans';
+}
+
+#container {
+  display: flex;
+  position: fixed;
+  right: 12px;
+  bottom: 100px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#lens {
+  animation: rotate 2s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+@keyframes shimmer {
+  from {
+    transform: rotate(-4deg);
+  }
+  to {
+    transform: rotate(4deg);
+  }
+}
+
+#rays1 {
+  animation: shimmer 4s linear alternate infinite;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+#rays2 {
+  animation: shimmer 4s linear 4s alternate both infinite;
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+.frosted {
+  backdrop-filter: blur(10px);
+}

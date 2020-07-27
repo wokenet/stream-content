@@ -1,0 +1,10 @@
+[
+  {
+    "link": "https://stay.woke.net/overlay/background.html",
+    "kind": "background"
+  },
+  {
+    "link": "https://stay.woke.net/overlay/overlay.html",
+    "kind": "overlay"
+  }
+]
