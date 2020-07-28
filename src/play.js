@@ -1,9 +1,13 @@
 import './play.css'
 
 function main() {
-  const params = new URLSearchParams(location.search)
+  let [paramsText, url] = location.hash.substr(1).split(';')
+  if (!url) {
+    url = paramsText
+    paramsText = ''
+  }
 
-  const url = params.get('url')
+  const params = new URLSearchParams(paramsText)
 
   let kind = params.get('kind')
   if (!kind) {
@@ -46,5 +50,9 @@ function main() {
 
   document.body.appendChild(el)
 }
+
+window.addEventListener('hashchange', () => {
+  location.reload()
+})
 
 main()
