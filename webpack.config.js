@@ -7,6 +7,7 @@ module.exports = (env, argv) => ({
   entry: {
     background: './src/background.js',
     overlay: './src/overlay.js',
+    play: './src/play.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -36,6 +37,11 @@ module.exports = (env, argv) => ({
       title: 'Woke Overlay',
       chunks: ['overlay'],
       filename: 'overlay.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Woke Play Overlay',
+      chunks: ['play'],
+      filename: 'play.html',
     }),
     argv.mode === 'production'
       ? new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/.*/])

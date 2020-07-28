@@ -1,0 +1,34 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+html.hidden {
+  display: none;
+}
+
+img,
+video {
+  object-fit: contain;
+}
+
+html.cover img,
+html.cover video {
+  object-fit: cover;
+}
+
+iframe,
+img,
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+iframe {
+  border: none;
+}
