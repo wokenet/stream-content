@@ -12,9 +12,17 @@ const timeFormat = new Intl.DateTimeFormat('en-US', {
   timeZoneName: 'short',
 })
 
+const dateFormat = new Intl.DateTimeFormat('en-US', {
+  dateStyle: 'long',
+})
+
 function update() {
   document.getElementById('timestamp').textContent = timeFormat.format()
+  document.getElementById('date').textContent = dateFormat.format()
+
+  const days = Math.floor((Date.now() - 1590562800000) / (24 * 60 * 60 * 1000))
+  document.getElementById('day').textContent = `Day ${days}`
 }
 
-setInterval(update, 1000)
+setInterval(update, 500)
 update()

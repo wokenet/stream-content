@@ -11,6 +11,12 @@ body {
   src: url(./NotoSans-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 600;
+  src: url(./NotoSans-SemiBold.ttf) format('truetype');
+}
+
 body {
   font-family: 'Noto Sans';
 }
