@@ -8,7 +8,7 @@ document.body.appendChild(containerEl)
 
 const timeFormat = new Intl.DateTimeFormat('en-US', {
   timeStyle: 'long',
-  hourCycle: 'h24',
+  hourCycle: 'h23',
   timeZoneName: 'short',
 })
 
