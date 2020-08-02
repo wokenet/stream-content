@@ -13,7 +13,9 @@ const timeFormat = new Intl.DateTimeFormat('en-US', {
 })
 
 const dateFormat = new Intl.DateTimeFormat('en-US', {
-  dateStyle: 'long',
+  day: 'numeric',
+  month: 'short',
+  year: 'numeric',
 })
 
 function update() {
