@@ -11,7 +11,6 @@ module.exports = (env, argv) => ({
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'https://stay.woke.net/overlays/',
   },
   module: {
     rules: [

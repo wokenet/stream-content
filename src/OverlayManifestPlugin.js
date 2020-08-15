@@ -1,18 +1,17 @@
-const fs = require('fs')
 const path = require('path')
 const crypto = require('crypto')
 
-const overlayData = require('./overlayData')
+const { baseURL, overlays } = require('./overlayData')
 
 class OverlayManifestPlugin {
   apply(compiler) {
     compiler.hooks.afterEmit.tap('OverlayManifestPlugin', (compilation) => {
-      const { path: outputPath, publicPath } = compilation.options.output
+      const { path: outputPath } = compilation.options.output
       const assets = compilation.getAssets()
 
       const data = []
       for (const { name, source } of assets) {
-        if (!overlayData.hasOwnProperty(name)) {
+        if (!overlays.hasOwnProperty(name)) {
           continue
         }
 
@@ -24,13 +23,17 @@ class OverlayManifestPlugin {
           .substr(0, 16)
 
         data.push({
-          link: `${publicPath}${name}?${hash}`,
-          ...overlayData[name],
+          link: `${baseURL}${name}?${hash}`,
+          ...overlays[name],
         })
       }
 
       const output = JSON.stringify(data, null, 2)
-      fs.writeFileSync(path.join(outputPath, 'overlays.json'), output)
+      compiler.outputFileSystem.writeFile(
+        path.join(outputPath, 'overlays.json'),
+        output,
+        () => {},
+      )
     })
   }
 }
