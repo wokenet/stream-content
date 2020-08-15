@@ -4,7 +4,6 @@
   "private": true,
   "description": "Webpages used to draw elements of the woke.net stream",
   "devDependencies": {
-    "copy-webpack-plugin": "^6.0.3",
     "css-loader": "^4.0.0",
     "html-webpack-plugin": "^4.3.0",
     "raw-loader": "^4.0.1",

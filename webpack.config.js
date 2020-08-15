@@ -1,7 +1,7 @@
 const path = require('path')
-const CopyPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin')
+const OverlayManifestPlugin = require('./src/OverlayManifestPlugin')
 
 module.exports = (env, argv) => ({
   entry: {
@@ -11,6 +11,7 @@ module.exports = (env, argv) => ({
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
+    publicPath: 'https://stay.woke.net/overlays/',
   },
   module: {
     rules: [
@@ -25,9 +26,7 @@ module.exports = (env, argv) => ({
     ],
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [{ from: 'src/overlays.json', to: '[name].json' }],
-    }),
+    new OverlayManifestPlugin(),
     new HtmlWebpackPlugin({
       title: 'Woke Background',
       chunks: ['background'],
