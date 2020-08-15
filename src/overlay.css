@@ -24,7 +24,25 @@ body {
 #container {
   display: flex;
   position: fixed;
+}
+
+#container.nw {
+  left: 12px;
+  top: 100px;
+}
+
+#container.ne {
   right: 12px;
+  top: 100px;
+}
+
+#container.se {
+  right: 12px;
+  bottom: 100px;
+}
+
+#container.sw {
+  left: 12px;
   bottom: 100px;
 }
 

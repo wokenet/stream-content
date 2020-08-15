@@ -23,5 +23,8 @@
     "overlay"
   ],
   "author": "Max Goodhart <c@chromakode.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
 }

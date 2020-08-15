@@ -1,3 +1,5 @@
+import sample from 'lodash/sample'
+
 import './overlay.css'
 import svg from 'raw-loader!./overlay.svg'
 
@@ -17,6 +19,13 @@ const dateFormat = new Intl.DateTimeFormat('en-US', {
   month: 'short',
   year: 'numeric',
 })
+
+function position() {
+  containerEl.className = sample(['nw', 'ne', 'se', 'sw'])
+}
+
+setInterval(position, 1000 * 60 * 10)
+position()
 
 function update() {
   document.getElementById('timestamp').textContent = timeFormat.format()
