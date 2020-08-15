@@ -21,7 +21,7 @@ const dateFormat = new Intl.DateTimeFormat('en-US', {
 })
 
 function position() {
-  containerEl.className = sample(['nw', 'ne', 'se', 'sw'])
+  containerEl.className = sample(['nw', 'ne', 'se'])
 }
 
 setInterval(position, 1000 * 60 * 10)

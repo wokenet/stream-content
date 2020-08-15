@@ -41,11 +41,6 @@ body {
   bottom: 100px;
 }
 
-#container.sw {
-  left: 12px;
-  bottom: 100px;
-}
-
 @keyframes rotate {
   from {
     transform: rotate(0);
