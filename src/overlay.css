@@ -24,21 +24,22 @@ body {
 #container {
   display: flex;
   position: fixed;
+  transform: translateY(-50%);
 }
 
 #container.nw {
   left: 12px;
-  top: 100px;
+  top: calc(100vh / 6);
 }
 
 #container.ne {
   right: 12px;
-  top: 100px;
+  top: calc(100vh / 6);
 }
 
 #container.se {
   right: 12px;
-  bottom: 100px;
+  top: calc(100vh * (5 / 6));
 }
 
 @keyframes rotate {

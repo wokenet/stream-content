@@ -7,6 +7,7 @@ module.exports = (env, argv) => ({
   entry: {
     background: './src/background.js',
     overlay: './src/overlay.js',
+    overlayIntl: './src/overlayIntl.js',
     play: './src/play.js',
   },
   output: {
@@ -35,6 +36,11 @@ module.exports = (env, argv) => ({
       title: 'Woke Overlay',
       chunks: ['overlay'],
       filename: 'overlay.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Woke International Overlay',
+      chunks: ['overlayIntl'],
+      filename: 'overlayIntl.html',
     }),
     new HtmlWebpackPlugin({
       title: 'Woke Play Overlay',
