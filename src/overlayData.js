@@ -1,5 +1,5 @@
 module.exports = {
-  baseURL: 'https://stay.woke.net/overlays/',
+  baseURL: 'https://stay.woke.net/content/',
   overlays: {
     'overlay.html': { kind: 'overlay' },
     'background.html': { kind: 'background' },
