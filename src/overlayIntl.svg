@@ -25,17 +25,6 @@
   <defs
      id="defs873">
     <filter
-       style="color-interpolation-filters:sRGB"
-       id="filter3023"
-       x="-0.037374247"
-       width="1.0747485"
-       y="-0.067067847"
-       height="1.1341357">
-      <feGaussianBlur
-         stdDeviation="1.855037"
-         id="feGaussianBlur3025" />
-    </filter>
-    <filter
        height="1.1341357"
        y="-0.067067847"
        width="1.0747485"
@@ -60,6 +49,14 @@
        style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:14.8429;stroke-linecap:round;paint-order:fill markers stroke;stop-color:#000000"
        d="M 0,0 H 134.99997 V 135 H 0 Z" />
   </mask>
+  <rect
+     ry="2.4740772"
+     y="66.635155"
+     x="4.1931397e-08"
+     height="30.364845"
+     width="112.16591"
+     id="rect3189"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1" />
   <g
      style="stroke-width:8.67472"
      transform="matrix(0.11527746,0,0,0.11527746,111.78966,45.226907)"
@@ -71,26 +68,26 @@
        id="globe-fill" />
   </g>
   <g
-     style="stroke-width:1.00228"
-     transform="matrix(0.99772168,0,0,0.99772168,-0.86427357,-29.929962)"
+     style="stroke-width:1.08745;fill:#31b9b9;fill-opacity:1"
+     transform="matrix(0.91958284,0,0,0.91958284,3.5553768,-19.731654)"
      id="g3187">
     <text
        id="timestamp"
        y="111.09126"
        x="4.1570821"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:17.3356px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;opacity:0.85;fill:#47cece;fill-opacity:1;stroke:none;stroke-width:2.00457;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:17.3356px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;opacity:0.85;fill:#31b9b9;fill-opacity:1;stroke:none;stroke-width:2.1749;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:17.3356px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#47cece;fill-opacity:1;stroke:none;stroke-width:2.00457;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:17.3356px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#31b9b9;fill-opacity:1;stroke:none;stroke-width:2.1749;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          id="tspan1498">12:34:05 PST</tspan></text>
   </g>
   <text
      id="date"
-     y="94.217804"
-     x="106.64095"
-     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:9.84187px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;opacity:1;fill:#47cece;fill-opacity:1;stroke:none;stroke-width:0.27919;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.979839;paint-order:markers stroke fill"
+     y="92.190712"
+     x="103.6074"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:9.04782px;line-height:1.25;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;opacity:1;fill:#31b9b9;fill-opacity:1;stroke:none;stroke-width:0.27919;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.979839;paint-order:markers stroke fill;"
      xml:space="preserve"><tspan
        id="tspan1504"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:9.84187px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#47cece;fill-opacity:1;stroke-width:0.27919">July 4, 2020</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:9.04782px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#31b9b9;fill-opacity:1;stroke-width:0.27919;">July 4, 2020</tspan></text>
   <g
      transform="matrix(0.86211374,0,0,0.86211374,5.5624342,5.5624365)"
      aria-label="INTL"
