@@ -36,7 +36,11 @@ export function renderOverlay(svg) {
     const days = Math.floor(
       (Date.now() - 1590562800000) / (24 * 60 * 60 * 1000),
     )
-    document.getElementById('day').textContent = `Day ${days}`
+
+    const dayEl = document.getElementById('day')
+    if (dayEl) {
+      dayEl.textContent = `Day ${days}`
+    }
   }
 
   setInterval(updateClock, 500)
