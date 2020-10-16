@@ -13,7 +13,6 @@ import { renderOverlay } from './overlayShared'
 
 function renderGlobe() {
   const globePath = document.querySelector('#globe-geometry')
-  console.log(globePath)
   const { width, height } = globePath.getBoundingClientRect()
 
   const projection = d3
