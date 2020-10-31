@@ -47,6 +47,9 @@ function main() {
   if (params.has('cover')) {
     document.documentElement.classList.add('cover')
   }
+  if ((kind === 'video' || kind === 'audio') && params.has('loop')) {
+    el.loop = true
+  }
 
   document.body.appendChild(el)
 }
