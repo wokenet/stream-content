@@ -47,8 +47,13 @@ function main() {
   if (params.has('cover')) {
     document.documentElement.classList.add('cover')
   }
-  if ((kind === 'video' || kind === 'audio') && params.has('loop')) {
-    el.loop = true
+  if (kind === 'video' || kind === 'audio') {
+    if (params.has('loop')) {
+      el.loop = true
+    }
+    if (params.has('muted')) {
+      el.muted = true
+    }
   }
 
   document.body.appendChild(el)
