@@ -34,7 +34,7 @@ export function renderOverlay(svg) {
     document.getElementById('date').textContent = dateFormat.format()
 
     const days = Math.floor(
-      (Date.now() - 1590562800000) / (24 * 60 * 60 * 1000),
+      (Date.now() - 1590390000000) / (24 * 60 * 60 * 1000),
     )
 
     const dayEl = document.getElementById('day')
