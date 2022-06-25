@@ -24,15 +24,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="3.9820631"
-     inkscape:cx="75.086706"
-     inkscape:cy="88.39639"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg869" />
+     inkscape:zoom="7.9641262"
+     inkscape:cx="59.579669"
+     inkscape:cy="123.05179"
+     inkscape:window-width="1551"
+     inkscape:window-height="963"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g1418" />
   <metadata
      id="metadata875">
     <rdf:RDF>
@@ -184,7 +184,7 @@
   </g>
   <g
      id="g1418"
-     transform="matrix(0.09544284,0,0,0.08178981,-98.82432,95.134748)"
+     transform="matrix(0.09544284,0,0,0.07968841,-98.82432,95.600658)"
      style="opacity:0.4">
     <g
        id="g7784"
@@ -196,9 +196,9 @@
          style="stroke-width:0.935414" />
       <path
          fill="#004dff"
-         d="M 0,60 H 777 V 420 H 0 Z"
+         d="M 0,60 H 777 V 404.89329 H 0 Z"
          id="path1390"
-         style="stroke-width:0.92582" />
+         style="stroke-width:0.906187" />
       <path
          fill="#008026"
          d="M 0,60 H 777 V 360 H 0 Z"
@@ -221,15 +221,15 @@
          style="stroke-width:0.816497" />
       <path
          fill="#784f17"
-         d="m 0,60 h 777 v 60 H 0 Z"
+         d="m 0,60 h 777 v 73.27701 H 0 Z"
          id="path1400"
-         style="stroke-width:0.707107" />
+         style="stroke-width:0.781436" />
     </g>
   </g>
   <g
      id="g7845"
      transform="matrix(0.06573252,0,0,0.0745839,76.701877,96.752829)"
-     style="opacity:0.4">
+     style="opacity:0.55">
     <path
        fill="#5bcefa"
        d="M 0,0 H 800 V 480 H 0 Z"
