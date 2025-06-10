@@ -13,6 +13,7 @@ export function renderOverlay(svg) {
     minute: '2-digit',
     second: '2-digit',
     hourCycle: 'h23',
+    timeZone: 'America/Los_Angeles',
     timeZoneName: 'short',
   })
 
