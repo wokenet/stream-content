@@ -18,7 +18,7 @@ export function renderOverlay(svg) {
 
   const dateFormat = new Intl.DateTimeFormat('en-US', {
     day: 'numeric',
-    month: 'short',
+    month: 'numeric',
     year: 'numeric',
   })
 
