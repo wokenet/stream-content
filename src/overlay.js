@@ -1,4 +1,5 @@
-import svg from 'raw-loader!./overlayPride.svg'
+import svg from 'raw-loader!./overlay.svg'
+import svgPride from 'raw-loader!./overlayPride.svg'
 import { renderOverlay } from './overlayShared'
 
-renderOverlay(svg)
+renderOverlay(location.hash === '#pride' ? svgPride : svg)
